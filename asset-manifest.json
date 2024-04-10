@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.d24b3d06.css",
-    "main.js": "/developerFolio/static/js/main.ab2ed020.js",
+    "main.js": "/developerFolio/static/js/main.beaa7dda.js",
     "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
@@ -9,11 +9,11 @@
     "static/media/planetpointsLogo.png": "/developerFolio/static/media/planetpointsLogo.f0eee6a3af31b6ba0d91.png",
     "static/media/hackathonWin.png": "/developerFolio/static/media/hackathonWin.36b5b40d22edad917608.png",
     "static/media/borgwarnerLogo.png": "/developerFolio/static/media/borgwarnerLogo.c229f2d4f43ec886472e.png",
-    "static/media/leadership.png": "/developerFolio/static/media/leadership.6701f7a794dc1703f606.png",
     "static/media/Montserrat-Regular.ttf": "/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/ketteringLogo.png": "/developerFolio/static/media/ketteringLogo.78ada631bda1b6147aa6.png",
     "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/clearvueLogo.png": "/developerFolio/static/media/clearvueLogo.e31b8d59a9da5ed8b76c.png",
+    "static/media/archivemeDemo.png": "/developerFolio/static/media/archivemeDemo.4066cb79208654854182.png",
     "static/media/manOnTable.svg": "/developerFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/archivemeLogo.png": "/developerFolio/static/media/archivemeLogo.7405cfb1271dfd829657.png",
     "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -22,7 +22,7 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.d24b3d06.css.map": "/developerFolio/static/css/main.d24b3d06.css.map",
-    "main.ab2ed020.js.map": "/developerFolio/static/js/main.ab2ed020.js.map",
+    "main.beaa7dda.js.map": "/developerFolio/static/js/main.beaa7dda.js.map",
     "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.d24b3d06.css",
-    "static/js/main.ab2ed020.js"
+    "static/js/main.beaa7dda.js"
   ]
 }
