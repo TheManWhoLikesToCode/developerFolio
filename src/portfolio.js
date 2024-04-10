@@ -157,7 +157,7 @@ const bigProjects = {
   subtitle: "Showcasing my passion for innovation and problem-solving through personal projects and hackathon contributions.",
   projects: [
     {
-      image: require("./assets/images/clearvueLogo.svg"), // Replace with ClearVue logo
+      image: require("./assets/images/clearvueLogo.png"), // Replace with ClearVue logo
       projectName: "ClearVue",
       projectDesc: "An AI-powered assistive device for the visually impaired using GPT-4 and sensory technology. Overall Winner at GrizzHacks.",
       footerLink: [
@@ -196,26 +196,28 @@ const achievementSection = {
       title: "Hackathon Wins",
       subtitle: "Demonstrated innovation and development skills in competitive hackathon environments.",
       image: require("./assets/images/hackathonWin.png"),
-      footerLink: [],
-      subtitleBullets: [
-        "Overall Winner at GrizzHacks with 'ClearVue': an AI-powered assistive device for the visually impaired.",
-        "Won Sustainability and Community Impact tracks at #SpartaHack9 with 'PlanetPoints' sustainability app.",
-        "Participated in Disrupt Reality Hackathon (UofM Dearborn) and iQuHack (MIT)."
+      imageAlt: "Hackathon Win Image",
+      footerLink: [
+        {
+          name: "ClearVue Project",
+          url: "https://devpost.com/software/clearvue"
+        },
+        {
+          name: "PlanetPoints Project",
+          url: "https://devpost.com/software/planetpoints"
+        }
       ]
     },
     {
       title: "Academic & Leadership",
-      subtitle: "Maintained strong academic standing while actively contributing to university organizations.",
+      subtitle: "Maintained strong academic standing while actively contributing to university organizations.\n\n- 6x Dean's List recipient, demonstrating consistent academic excellence.\n- President of Gamma Sigma Alpha National Greek Honor Society.\n- Member of Upsilon Pi Epsilon Computer Science Honor Society.\n- Founder and Chair of the Association for Computing Machinery (ACM) Chapter at Kettering.\n- Past Treasurer of Black Student Union.\n- Programs Chair of National Society of Black Engineers (NSBE).\n- Treasurer of International Club.",
       image: require("./assets/images/leadership.png"),
-      footerLink: [],
-      subtitleBullets: [
-        "6x Dean's List recipient, demonstrating consistent academic excellence.",
-        "President of Gamma Sigma Alpha National Greek Honor Society.",
-        "Member of Upsilon Pi Epsilon Computer Science Honor Society.",
-        "Founder and Chair of the Association for Computing Machinery (ACM) Chapter at Kettering.",
-        "Past Treasurer of Black Student Union.",
-        "Programs Chair of National Society of Black Engineers (NSBE).",
-        "Treasurer of International Club." 
+      imageAlt: "Leadership Image",
+      footerLink: [
+        {
+          name: "Kettering University",
+          url: "https://www.kettering.edu/"
+        }
       ]
     }
   ],
