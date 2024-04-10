@@ -93,9 +93,16 @@ const educationInfo = {
       logo: require("./assets/images/ketteringLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2021 - Present (Expected June 2025)",
-      desc: "Concentration: Artificial Intelligence. GPA: 3.76/4.0. Strong academic performance with a focus on core computer science principles.",
+      desc: "Concentration: Artificial Intelligence. GPA: 3.76/4.0. Maintained strong academic standing while actively contributing to university organizations.",
       descBullets: [
-        "Relevant Coursework: Object-Oriented Programming, Data Structures & Algorithms, AI, Machine Learning, Software Engineering, Algorithmic Analysis, Programming Paradigms"
+        "Relevant Coursework: Object-Oriented Programming, Data Structures & Algorithms, AI, Machine Learning, Software Engineering, Algorithmic Analysis, Programming Paradigms",
+        "- 6x Dean's List recipient, demonstrating consistent academic excellence.",
+        "- President of Gamma Sigma Alpha National Greek Honor Society.",
+        "- Member of Upsilon Pi Epsilon Computer Science Honor Society.",
+        "- Founder and Chair of the Association for Computing Machinery (ACM) Chapter at Kettering.",
+        "- Past Treasurer of Black Student Union.",
+        "- Programs Chair of National Society of Black Engineers (NSBE).",
+        "- Treasurer of International Club." 
       ]
     }
   ]
@@ -209,22 +216,14 @@ const achievementSection = {
       ]
     },
     {
-      title: "Academic & Leadership",
-      subtitle: [
-        "Maintained strong academic standing while actively contributing to university organizations.",
-        "- 6x Dean's List recipient, demonstrating consistent academic excellence.",
-        "- President of Gamma Sigma Alpha National Greek Honor Society.",
-        "- Member of Upsilon Pi Epsilon Computer Science Honor Society.",
-        "- Founder and Chair of the Association for Computing Machinery (ACM) Chapter at Kettering.",
-        "- Past Treasurer of Black Student Union.",
-        "- Programs Chair of National Society of Black Engineers (NSBE).",
-        "- Treasurer of International Club."
-      ], image: require("./assets/images/leadership.png"),
-      imageAlt: "Leadership Image",
+      title: "Archive-Me: SaaS Service",
+      subtitle: "Built and deployed a SaaS service for archiving data.",
+      image: require("./assets/images/archiveMeImage.png"),
+      imageAlt: "Archive-Me Screenshot",
       footerLink: [
         {
-          name: "Kettering University",
-          url: "https://www.kettering.edu/"
+          name: "Visit Archive-Me",
+          url: "https://archive-me.net/"
         }
       ]
     }
