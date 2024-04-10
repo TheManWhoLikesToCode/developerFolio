@@ -218,7 +218,7 @@ const achievementSection = {
     {
       title: "Archive-Me: SaaS Service",
       subtitle: "Built and deployed a SaaS service for archiving data.",
-      image: require("./assets/images/archiveMeImage.png"),
+      image: require("./assets/images/archivemeDemo.png"),
       imageAlt: "Archive-Me Screenshot",
       footerLink: [
         {
