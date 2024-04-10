@@ -90,7 +90,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Kettering University",
-      logo: require("./assets/images/ketteringLogo.png"), 
+      logo: require("./assets/images/ketteringLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2021 - Present (Expected June 2025)",
       desc: "Concentration: Artificial Intelligence. GPA: 3.76/4.0. Strong academic performance with a focus on core computer science principles.",
@@ -210,8 +210,16 @@ const achievementSection = {
     },
     {
       title: "Academic & Leadership",
-      subtitle: "Maintained strong academic standing while actively contributing to university organizations.\n\n- 6x Dean's List recipient, demonstrating consistent academic excellence.\n- President of Gamma Sigma Alpha National Greek Honor Society.\n- Member of Upsilon Pi Epsilon Computer Science Honor Society.\n- Founder and Chair of the Association for Computing Machinery (ACM) Chapter at Kettering.\n- Past Treasurer of Black Student Union.\n- Programs Chair of National Society of Black Engineers (NSBE).\n- Treasurer of International Club.",
-      image: require("./assets/images/leadership.png"),
+      subtitle: [
+        "Maintained strong academic standing while actively contributing to university organizations.",
+        "- 6x Dean's List recipient, demonstrating consistent academic excellence.",
+        "- President of Gamma Sigma Alpha National Greek Honor Society.",
+        "- Member of Upsilon Pi Epsilon Computer Science Honor Society.",
+        "- Founder and Chair of the Association for Computing Machinery (ACM) Chapter at Kettering.",
+        "- Past Treasurer of Black Student Union.",
+        "- Programs Chair of National Society of Black Engineers (NSBE).",
+        "- Treasurer of International Club."
+      ], image: require("./assets/images/leadership.png"),
       imageAlt: "Leadership Image",
       footerLink: [
         {
@@ -293,7 +301,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
   email_address: "JaydinFreemanWork@gmail.com"
 };
 
