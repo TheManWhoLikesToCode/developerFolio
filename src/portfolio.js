@@ -312,6 +312,20 @@ const twitterDetails = {
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
+const embeddedVideos = {
+  display: true,
+  videos: [
+    {
+      title: "ClearVue Demonstration",
+      url: "https://www.youtube.com/embed/eOVi9eEHLK0?si=02Py_DYkr7rh5zk5"
+    },
+    {
+      title: "Michiganders Scholars",
+      url: "https://www.youtube.com/embed/kyZ5wxPeC0E?si=RVZKn0fexDUKBGVd"
+    }
+  ]
+};
+
 export {
   illustration,
   greeting,
@@ -330,5 +344,5 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  embeddedVideos
 };
